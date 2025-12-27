@@ -1,3 +1,5 @@
+<%= render "inventory", product: @product %>
+
 <%= image_tag @product.featured_image, size: "300x300" if @product.featured_image.attached?%>
 
 <% cache @product do %>
