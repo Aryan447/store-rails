@@ -16,4 +16,3 @@ class SubscribersController < ApplicationController
       params.expect(subscriber: [ :email ])
     end
 end
-
